@@ -1,0 +1,7 @@
+name alex
+edad 15
+profesion maestro
+
+name papu
+edad 19
+profesion arquitecte

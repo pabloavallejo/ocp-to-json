@@ -1,0 +1,18 @@
+{
+    "alex": {
+        "name": "alex",
+        "gender": "male"
+    },
+    "tina": {
+        "name": "tina",
+        "gender": "female"
+    },
+    "jakob": {
+        "name": "jakob",
+        "gender": "male"
+    },
+    "lee": {
+        "name": "lee",
+        "gender": "male"
+    }
+}

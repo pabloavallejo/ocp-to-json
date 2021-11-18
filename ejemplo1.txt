@@ -1,0 +1,4 @@
+alex male
+tina female
+jakob male
+lee male
