@@ -1,0 +1,4372 @@
+Name:       burst-quota
+Namespace:  achc-apicheqcustodia-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         60m    8
+memory      384Mi  16Gi
+
+
+Name:       quota
+Namespace:  achc-apicheqcustodia-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       60m    6
+memory    384Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  actm-autocontrolm-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  actm-autocontrolm-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  adpc-admpreycomision-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         7200m   9
+memory      9220Mi  16Gi
+
+
+Name:       quota
+Namespace:  adpc-admpreycomision-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       7200m   8
+memory    9220Mi  14Gi
+
+
+Name:       burst-quota
+Namespace:  aepi-platintegraccis-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  aepi-platintegraccis-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  alm-registry
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  alm-registry
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  almb-integracionocp-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  almb-integracionocp-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  almc-integrations-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  almc-integrations-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  almc-integrations-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         60m    8
+memory      384Mi  16Gi
+
+
+Name:       quota
+Namespace:  almc-integrations-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       60m    6
+memory    384Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  almt-test-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  almt-test-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  anlp-apinlp-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  anlp-apinlp-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  anlp-apinlp-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  anlp-apinlp-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  apdk-appdkuextension-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         300m  4
+memory      1G    8Gi
+
+
+Name:       quota
+Namespace:  apdk-appdkuextension-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       300m  3
+memory    1G    6Gi
+
+
+Name:       burst-quota
+Namespace:  apdm-appdmachine-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         7800m   11
+memory      31200M  32Gi
+
+
+Name:       quota
+Namespace:  apdm-appdmachine-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       7800m   10
+memory    31200M  30Gi
+
+
+Name:       burst-quota
+Namespace:  apdz-appdzos-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  apdz-appdzos-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  aple-apislending-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  aple-apislending-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  aple-apislending-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         160m  8
+memory      1Gi   16Gi
+
+
+Name:       quota
+Namespace:  aple-apislending-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       160m  6
+memory    1Gi   12Gi
+
+
+Name:       burst-quota
+Namespace:  appd-appdynamics-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         850m   8
+memory      900Mi  16Gi
+
+
+Name:       quota
+Namespace:  appd-appdynamics-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       850m   6
+memory    900Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  appd-openshift-monitoring
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  appd-openshift-monitoring
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ardx-crossbgba-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  ardx-crossbgba-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  arqa-arquitectura-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         420m    8
+memory      1536Mi  16Gi
+
+
+Name:       quota
+Namespace:  arqa-arquitectura-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       420m    6
+memory    1536Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  arqv-msarqventas-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         520m    8
+memory      5248Mi  16Gi
+
+
+Name:       quota
+Namespace:  arqv-msarqventas-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       520m    6
+memory    5248Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  auth-authcanales-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  auth-authcanales-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  auth-authcanales-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  auth-authcanales-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  bfft-tasi-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         80m    8
+memory      512Mi  16Gi
+
+
+Name:       quota
+Namespace:  bfft-tasi-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       80m    6
+memory    512Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  bgfo-formbgcom-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  bgfo-formbgcom-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  birm-impresionpf-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  birm-impresionpf-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  botc-avcross-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  botc-avcross-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  botd-botdedatos-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         140m   8
+memory      896Mi  16Gi
+
+
+Name:       quota
+Namespace:  botd-botdedatos-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       140m   6
+memory    896Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  bots-bothelpdesk-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         80m    8
+memory      512Mi  16Gi
+
+
+Name:       quota
+Namespace:  bots-bothelpdesk-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       80m    6
+memory    512Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  bros-infocomerciales-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  bros-infocomerciales-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  cdsa-solanaliticas-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  cdsa-solanaliticas-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  cgch-consultacheques-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  cgch-consultacheques-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  clie-clientes-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         600m    8
+memory      2688Mi  16Gi
+
+
+Name:       quota
+Namespace:  clie-clientes-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       600m    6
+memory    2688Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  clrm-corresponsalia-prd
+Resource    Used     Hard
+--------    ----     ----
+cpu         7080m    11
+memory      12416Mi  16Gi
+
+
+Name:       quota
+Namespace:  clrm-corresponsalia-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used     Hard
+--------  ----     ----
+cpu       7080m    9
+memory    12416Mi  14Gi
+
+
+Name:       burst-quota
+Namespace:  cnet-crossnetcore-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  cnet-crossnetcore-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  cobr-cobranzascore-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         280m    8
+memory      1792Mi  16Gi
+
+
+Name:       quota
+Namespace:  cobr-cobranzascore-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       280m    6
+memory    1792Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  corm-comisionesrm-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         60m    8
+memory      384Mi  16Gi
+
+
+Name:       quota
+Namespace:  corm-comisionesrm-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       60m    6
+memory    384Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  cota-plataformamdp-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         260m    8
+memory      1664Mi  16Gi
+
+
+Name:       quota
+Namespace:  cota-plataformamdp-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       260m    6
+memory    1664Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  crea-reactnity-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  crea-reactnity-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  crnj-crossnodejs-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  crnj-crossnodejs-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ctqs-teraapirestnet-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         1460m   8
+memory      9344Mi  16Gi
+
+
+Name:       quota
+Namespace:  ctqs-teraapirestnet-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       1460m   6
+memory    9344Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  dbin-fcecal-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  dbin-fcecal-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  dbnn-debin-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         2020m   8
+memory      2176Mi  16Gi
+
+
+Name:       quota
+Namespace:  dbnn-debin-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       2020m   6
+memory    2176Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  devo-devops-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         320m    8
+memory      3968Mi  16Gi
+
+
+Name:       quota
+Namespace:  devo-devops-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       320m    6
+memory    3968Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  devp-devops-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  devp-devops-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  dngd-publicapigd-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  dngd-publicapigd-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  dwex-dwaexperian-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  dwex-dwaexperian-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  dwfc-fcrconveniosmov-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  dwfc-fcrconveniosmov-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  dwms-consumostctd-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  dwms-consumostctd-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  dwos-dataanalytics-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         20m   8
+memory      1Gi   16Gi
+
+
+Name:       quota
+Namespace:  dwos-dataanalytics-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       20m   6
+memory    1Gi   12Gi
+
+
+Name:       burst-quota
+Namespace:  dwpc-dwposicioncons-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  dwpc-dwposicioncons-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ecna-econaranja-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         720m    8
+memory      1536Mi  16Gi
+
+
+Name:       quota
+Namespace:  ecna-econaranja-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       720m    6
+memory    1536Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ecos-extractos-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ecos-extractos-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ecos-extractos-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         60m    8
+memory      384Mi  16Gi
+
+
+Name:       quota
+Namespace:  ecos-extractos-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       60m    6
+memory    384Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  eqrm-echeq-plt
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  eqrm-echeq-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  eqrm-echeq-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         1120m  8
+memory      7Gi    16Gi
+
+
+Name:       quota
+Namespace:  eqrm-echeq-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       1120m  6
+memory    7Gi    12Gi
+
+
+Name:       burst-quota
+Namespace:  exco-comex-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  exco-comex-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  exco-comex-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  exco-comex-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  exse-secopa-plt
+Resource    Used    Hard
+--------    ----    ----
+cpu         3080m   8
+memory      9088Mi  16Gi
+
+
+Name:       quota
+Namespace:  exse-secopa-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       3080m   6
+memory    9088Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  exse-secopa-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         400m    8
+memory      2176Mi  26Gi
+
+
+Name:       quota
+Namespace:  exse-secopa-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       400m    6
+memory    2176Mi  24Gi
+
+
+Name:       burst-quota
+Namespace:  exto-tops-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         440m    10
+memory      7424Mi  16Gi
+
+
+Name:       quota
+Namespace:  exto-tops-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       440m    8
+memory    7424Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  exxp-comexmove-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  exxp-comexmove-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  exxp-comexmove-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         120m   8
+memory      768Mi  16Gi
+
+
+Name:       quota
+Namespace:  exxp-comexmove-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       120m   6
+memory    768Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  fsrm-fusionsucursal-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  fsrm-fusionsucursal-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  gara-portalgarantias-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  gara-portalgarantias-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  gara-portalgarantias-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  gara-portalgarantias-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  gbrm-galaservicios-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         3720m   8
+memory      5376Mi  16Gi
+
+
+Name:       quota
+Namespace:  gbrm-galaservicios-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       3720m   6
+memory    5376Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  gcrm-galchecker-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  gcrm-galchecker-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  gdin-ingestagd-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  gdin-ingestagd-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  gdin-ingestagd-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  gdin-ingestagd-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  gdms-gddigital-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         280m    8
+memory      1792Mi  16Gi
+
+
+Name:       quota
+Namespace:  gdms-gddigital-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       280m    6
+memory    1792Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  gmtj-gestionomistarj-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  gmtj-gestionomistarj-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  gpag-gpag-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         140m   8
+memory      896Mi  16Gi
+
+
+Name:       quota
+Namespace:  gpag-gpag-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       140m   6
+memory    896Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  grca-galreserachweb-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  grca-galreserachweb-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  grca-galreserachweb-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         100m   8
+memory      640Mi  16Gi
+
+
+Name:       quota
+Namespace:  grca-galreserachweb-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       100m   6
+memory    640Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  gres-grecosystem-plt
+Resource    Used    Hard
+--------    ----    ----
+cpu         640m    8
+memory      3328Mi  16Gi
+
+
+Name:       quota
+Namespace:  gres-grecosystem-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       640m    6
+memory    3328Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  gres-grecosystem-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         1060m   16
+memory      7808Mi  32Gi
+
+
+Name:       quota
+Namespace:  gres-grecosystem-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       1060m   12
+memory    7808Mi  24Gi
+
+
+Name:       burst-quota
+Namespace:  gros-corequiero-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         1120m   8
+memory      4864Mi  16Gi
+
+
+Name:       quota
+Namespace:  gros-corequiero-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       1120m   6
+memory    4864Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  hgaa-hacetegalicia-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  hgaa-hacetegalicia-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  hgab-wrpqsventa-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  hgab-wrpqsventa-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  hgat-wradquisicion-plt
+Resource    Used   Hard
+--------    ----   ----
+cpu         220m   8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  hgat-wradquisicion-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       220m   6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  hgat-wradquisicion-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         220m   8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  hgat-wradquisicion-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       220m   6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  hqco-migracioncpr-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  hqco-migracioncpr-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  hqtt-tracktarjetas-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      384Mi  16Gi
+
+
+Name:       quota
+Namespace:  hqtt-tracktarjetas-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    384Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  icea-iccmsafip-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  icea-iccmsafip-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  icpm-icproymigrapis-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         500m    8
+memory      3200Mi  16Gi
+
+
+Name:       quota
+Namespace:  icpm-icproymigrapis-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       500m    6
+memory    3200Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  icta-ictransapi-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  icta-ictransapi-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ierm-sie-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ierm-sie-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ierm-sie-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  ierm-sie-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  incc-comcustodia-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  incc-comcustodia-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  inml-orquestadordocs-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         60m    8
+memory      384Mi  16Gi
+
+
+Name:       quota
+Namespace:  inml-orquestadordocs-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       60m    6
+memory    384Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  inor-calypsoinor-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  inor-calypsoinor-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  inpq-infopaquetes-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  inpq-infopaquetes-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  inpq-infopaquetes-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  inpq-infopaquetes-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  inrl-calypsoretail-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  inrl-calypsoretail-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ints-automatizacion-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ints-automatizacion-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ints-automatizacion-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ints-automatizacion-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  iprt-iprealtime-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  iprt-iprealtime-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  isop-antecedentes-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         120m   8
+memory      768Mi  16Gi
+
+
+Name:       quota
+Namespace:  isop-antecedentes-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       120m   6
+memory    768Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  jaeg-jaegguertracin-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         80m     8
+memory      2432Mi  16Gi
+
+
+Name:       quota
+Namespace:  jaeg-jaegguertracin-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       80m     6
+memory    2432Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  jaut-autenticacion-plt
+Resource    Used   Hard
+--------    ----   ----
+cpu         80m    8
+memory      896Mi  16Gi
+
+
+Name:       quota
+Namespace:  jaut-autenticacion-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       80m    6
+memory    896Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  jaut-autenticacion-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         560m   8
+memory      896Mi  16Gi
+
+
+Name:       quota
+Namespace:  jaut-autenticacion-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       560m   6
+memory    896Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  jfcr-motorfcr-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         80m    8
+memory      512Mi  16Gi
+
+
+Name:       quota
+Namespace:  jfcr-motorfcr-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       80m    6
+memory    512Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  limk-marketplace-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  limk-marketplace-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  lsbg-leasingbg-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         240m    8
+memory      2432Mi  16Gi
+
+
+Name:       quota
+Namespace:  lsbg-leasingbg-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       240m    6
+memory    2432Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  lsgo-sitioleasing-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  lsgo-sitioleasing-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  masi-massivepayments-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         620m    8
+memory      3456Mi  16Gi
+
+
+Name:       quota
+Namespace:  masi-massivepayments-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       620m    6
+memory    3456Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  mbap-mobileapps-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  mbap-mobileapps-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  medi-menuatenciondig-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         80m    8
+memory      512Mi  16Gi
+
+
+Name:       quota
+Namespace:  medi-menuatenciondig-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       80m    6
+memory    512Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  misc-cyberseg-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  misc-cyberseg-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  mlop-consultatera-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  mlop-consultatera-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  mobi-galiciamobile-plt
+Resource    Used        Hard
+--------    ----        ----
+cpu         1400m       8
+memory      4221225472  16Gi
+
+
+Name:       quota
+Namespace:  mobi-galiciamobile-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used        Hard
+--------  ----        ----
+cpu       1400m       6
+memory    4221225472  12Gi
+
+
+Name:       burst-quota
+Namespace:  mobi-galiciamobile-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         220m    8
+memory      1408Mi  16Gi
+
+
+Name:       quota
+Namespace:  mobi-galiciamobile-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       220m    6
+memory    1408Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  myop-otorgamiento-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         2500m   8
+memory      3328Mi  16Gi
+
+
+Name:       quota
+Namespace:  myop-otorgamiento-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       2500m   6
+memory    3328Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  nbrm-nuevobalance-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  nbrm-nuevobalance-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  nbrm-nuevobalance-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  nbrm-nuevobalance-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  nlrm-nlpplatform-prd
+Resource    Used     Hard
+--------    ----     ----
+cpu         11060m   22
+memory      48568Mi  62Gi
+
+
+Name:       quota
+Namespace:  nlrm-nlpplatform-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used     Hard
+--------  ----     ----
+cpu       11060m   20
+memory    48568Mi  60Gi
+
+
+Name:       burst-quota
+Namespace:  noex-notifexternas-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  noex-notifexternas-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  noex-notifexternas-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  noex-notifexternas-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  nvsm-sincpersonas-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         160m  8
+memory      1Gi   16Gi
+
+
+Name:       quota
+Namespace:  nvsm-sincpersonas-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       160m  6
+memory    1Gi   12Gi
+
+
+Name:       burst-quota
+Namespace:  obad-tarjetasonb-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obad-tarjetasonb-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  obae-ayuda-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obae-ayuda-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  obaf-perfil-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  obaf-perfil-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  obag-inversiones-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obag-inversiones-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  obah-transferencias-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obah-transferencias-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  obai-claves-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obai-claves-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  obak-seguros-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obak-seguros-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  obal-financioonba-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obal-financioonba-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  obam-onbbo-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obam-onbbo-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  oban-autogestionlim-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  oban-autogestionlim-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  obap-pagosdigitales-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obap-pagosdigitales-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  obaq-finangalrural-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         60m    8
+memory      384Mi  16Gi
+
+
+Name:       quota
+Namespace:  obaq-finangalrural-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       60m    6
+memory    384Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  obar-fullcheqsonb-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obar-fullcheqsonb-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  obas-prestamosapi-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         140m   8
+memory      896Mi  16Gi
+
+
+Name:       quota
+Namespace:  obas-prestamosapi-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       140m   6
+memory    896Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  obat-cuentastransac-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obat-cuentastransac-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  obaw-onbweb-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obaw-onbweb-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  obax-comexonb-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  obax-comexonb-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ocp-ops-view
+Resource    Used   Hard
+--------    ----   ----
+cpu         550m   8
+memory      706Mi  16Gi
+
+
+Name:       quota
+Namespace:  ocp-ops-view
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       550m   6
+memory    706Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  odrm-odretriever-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  odrm-odretriever-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofb0-ofbplatform-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ofb0-ofbplatform-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ofb0-ofbplatform-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofb0-ofbplatform-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofb1-ofbbff-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ofb1-ofbbff-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ofb2-fce-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ofb2-fce-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ofb2-fce-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         120m   8
+memory      768Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofb2-fce-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       120m   6
+memory    768Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofb8-security-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofb8-security-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofba-tarjetasofb-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         240m   8
+memory      384Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofba-tarjetasofb-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       240m   6
+memory    384Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbd-cobrosdigitales-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofbd-cobrosdigitales-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbe-splitlending-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ofbe-splitlending-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbf-financiaciones-prd
+Resource    Used       Hard
+--------    ----       ----
+cpu         2200m      8
+memory      3263845Ki  16Gi
+
+
+Name:       quota
+Namespace:  ofbf-financiaciones-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used       Hard
+--------  ----       ----
+cpu       2200m      6
+memory    3263845Ki  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbg-gestionoffice-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofbg-gestionoffice-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbi-inversiones-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ofbi-inversiones-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbj-acuerdos-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         300m    8
+memory      3200Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofbj-acuerdos-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       300m    6
+memory    3200Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbl-financiaciongar-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         440m    8
+memory      2816Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofbl-financiaciongar-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       440m    6
+memory    2816Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbo-backoffice-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofbo-backoffice-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbp-commonsofb-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ofbp-commonsofb-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbq-fullcheq-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ofbq-fullcheq-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbr-infolending-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         360m    8
+memory      1152Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofbr-infolending-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       360m    6
+memory    1152Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbs-lendingcross-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ofbs-lendingcross-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbs-lendingcross-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         400m    8
+memory      1408Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofbs-lendingcross-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       400m    6
+memory    1408Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbt-sueldosytransfe-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         320m  8
+memory      2Gi   16Gi
+
+
+Name:       quota
+Namespace:  ofbt-sueldosytransfe-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       320m  6
+memory    2Gi   12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbu-altatarjetaweb-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofbu-altatarjetaweb-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbv-ventaprestamos-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         80m    8
+memory      512Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofbv-ventaprestamos-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       80m    6
+memory    512Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbw-micrositiocyp-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ofbw-micrositiocyp-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbw-micrositiocyp-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ofbw-micrositiocyp-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ofby-cumacuentam-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         100m   8
+memory      640Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofby-cumacuentam-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       100m   6
+memory    640Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofbz-financiaciones-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         140m   8
+memory      896Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofbz-financiaciones-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       140m   6
+memory    896Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  ofcc-ofbcuentas-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ofcc-ofbcuentas-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ofcc-ofbcuentas-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ofcc-ofbcuentas-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ofco-ofertascomer-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         820m    8
+memory      3840Mi  16Gi
+
+
+Name:       quota
+Namespace:  ofco-ofertascomer-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       820m    6
+memory    3840Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  oftr-transferencias-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  oftr-transferencias-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  oftr-transferencias-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  oftr-transferencias-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  onba-cdn-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  onba-cdn-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  onba-commons-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  onba-commons-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  onba-cross-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  onba-cross-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  onba-prestamos-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  onba-prestamos-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  orno-orquestadorbcra-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  orno-orquestadorbcra-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  paac-depreclamcierre-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  paac-depreclamcierre-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  paav-salesarch-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  paav-salesarch-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  pesr-pelecservrecurr-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         360m    8
+memory      1280Mi  16Gi
+
+
+Name:       quota
+Namespace:  pesr-pelecservrecurr-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       360m    6
+memory    1280Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  pnoe-noe-prd
+Resource    Used     Hard
+--------    ----     ----
+cpu         6940m    12
+memory      25142Mi  28Gi
+
+
+Name:       quota
+Namespace:  pnoe-noe-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used     Hard
+--------  ----     ----
+cpu       6940m    11
+memory    25142Mi  27Gi
+
+
+Name:       burst-quota
+Namespace:  poav-salesarch-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         200m    8
+memory      1280Mi  16Gi
+
+
+Name:       quota
+Namespace:  poav-salesarch-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       200m    6
+memory    1280Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  pobo-backoffice-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         60m    8
+memory      384Mi  16Gi
+
+
+Name:       quota
+Namespace:  pobo-backoffice-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       60m    6
+memory    384Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  pobv-modo-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  pobv-modo-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  pobv-modo-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         60m    8
+memory      384Mi  16Gi
+
+
+Name:       quota
+Namespace:  pobv-modo-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       60m    6
+memory    384Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  poca-cap-prd
+Resource    Used     Hard
+--------    ----     ----
+cpu         5580m    9
+memory      20096Mi  34Gi
+
+
+Name:       quota
+Namespace:  poca-cap-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used     Hard
+--------  ----     ----
+cpu       5580m    7
+memory    20096Mi  30Gi
+
+
+Name:       burst-quota
+Namespace:  pocb-crossbusiness-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         3460m   8
+memory      7936Mi  16Gi
+
+
+Name:       quota
+Namespace:  pocb-crossbusiness-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       3460m   6
+memory    7936Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  pocr-cross-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         1160m  8
+memory      5Gi    16Gi
+
+
+Name:       quota
+Namespace:  pocr-cross-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       1160m  6
+memory    5Gi    14Gi
+
+
+Name:       burst-quota
+Namespace:  poct-accounts-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         320m  8
+memory      2Gi   16Gi
+
+
+Name:       quota
+Namespace:  poct-accounts-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       320m  6
+memory    2Gi   12Gi
+
+
+Name:       burst-quota
+Namespace:  poha-enablers-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         2080m   8
+memory      4608Mi  16Gi
+
+
+Name:       quota
+Namespace:  poha-enablers-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       2080m   6
+memory    4608Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  poin-investments-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         440m    8
+memory      1664Mi  16Gi
+
+
+Name:       quota
+Namespace:  poin-investments-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       440m    6
+memory    1664Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  pont-notifications-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         1540m   10
+memory      3160Mi  18Gi
+
+
+Name:       quota
+Namespace:  pont-notifications-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       1540m   8
+memory    3160Mi  25Gi
+
+
+Name:       burst-quota
+Namespace:  pope-people-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         3020m   8
+memory      9600Mi  27Gi
+
+
+Name:       quota
+Namespace:  pope-people-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       3020m   6
+memory    9600Mi  27Gi
+
+
+Name:       burst-quota
+Namespace:  popr-loans-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         1040m   9
+memory      5504Mi  16Gi
+
+
+Name:       quota
+Namespace:  popr-loans-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       1040m   7
+memory    5504Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  popy-payments-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         1640m   8
+memory      5632Mi  26Gi
+
+
+Name:       quota
+Namespace:  popy-payments-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       1640m   6
+memory    5632Mi  22Gi
+
+
+Name:       burst-quota
+Namespace:  pore-servicemgmt-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  pore-servicemgmt-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  port-smartpom-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  port-smartpom-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  port-smartpom-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  port-smartpom-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  posb-postventabille-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  posb-postventabille-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  posb-postventabille-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  posb-postventabille-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  pota-cards-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         2500m   8
+memory      6656Mi  20Gi
+
+
+Name:       quota
+Namespace:  pota-cards-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       2500m   6
+memory    6656Mi  14Gi
+
+
+Name:       burst-quota
+Namespace:  ppco-gconvenio-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  ppco-gconvenio-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  prcn-nego-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  prcn-nego-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  psca-playsistemico-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         160m  8
+memory      1Gi   16Gi
+
+
+Name:       quota
+Namespace:  psca-playsistemico-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       160m  6
+memory    1Gi   12Gi
+
+
+Name:       burst-quota
+Namespace:  psin-policysystem-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  psin-policysystem-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ptqs-teraapirest-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  ptqs-teraapirest-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ptrd-radar-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         220m    8
+memory      2944Mi  16Gi
+
+
+Name:       quota
+Namespace:  ptrd-radar-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       220m    6
+memory    2944Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  puda-portalunificado-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         1040m   8
+memory      6656Mi  16Gi
+
+
+Name:       quota
+Namespace:  puda-portalunificado-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       1040m   6
+memory    6656Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  pwrm-das-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  pwrm-das-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  pwrm-das-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  pwrm-das-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  qaet-etldashboardqa-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  qaet-etldashboardqa-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  qpos-capacidadesit-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         1     8
+memory      1Gi   16Gi
+
+
+Name:       quota
+Namespace:  qpos-capacidadesit-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       1     6
+memory    1Gi   12Gi
+
+
+Name:       burst-quota
+Namespace:  qrrm-apiqrcode-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  qrrm-apiqrcode-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  redi-readecuaciones-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         820m    8
+memory      1536Mi  16Gi
+
+
+Name:       quota
+Namespace:  redi-readecuaciones-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       820m    6
+memory    1536Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  rhsso-prod
+Resource    Used  Hard
+--------    ----  ----
+cpu         250m  8
+memory      2Gi   16Gi
+
+
+Name:       quota
+Namespace:  rhsso-prod
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       250m  6
+memory    2Gi   12Gi
+
+
+Name:       burst-quota
+Namespace:  rodi-tools-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  rodi-tools-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  san1-proyectoprueba-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  san1-proyectoprueba-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  scoo-concentradorgaf-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  scoo-concentradorgaf-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  sgma-recupero-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         180m    8
+memory      1152Mi  16Gi
+
+
+Name:       quota
+Namespace:  sgma-recupero-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       180m    6
+memory    1152Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  sgrm-squadcuentas-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  sgrm-squadcuentas-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  sios-integraciones-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  sios-integraciones-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  siso-siscennuevo-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  siso-siscennuevo-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  siso-siscennuevo-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  siso-siscennuevo-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  sprm-spaecheq-plt
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  sprm-spaecheq-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  sprm-spaecheq-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  sprm-spaecheq-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  sre
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  sre
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  stat-webstatic-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  stat-webstatic-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  stmp-sisttransfermep-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  stmp-sisttransfermep-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  surv-dynamicsurveys-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         20m    8
+memory      128Mi  16Gi
+
+
+Name:       quota
+Namespace:  surv-dynamicsurveys-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       20m    6
+memory    128Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  tawe-portaltasi-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         120m   8
+memory      768Mi  16Gi
+
+
+Name:       quota
+Namespace:  tawe-portaltasi-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       120m   6
+memory    768Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  tbhc-healthcheck-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  tbhc-healthcheck-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  test-devops-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         160m  8
+memory      1Gi   16Gi
+
+
+Name:       quota
+Namespace:  test-devops-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       160m  6
+memory    1Gi   12Gi
+
+
+Name:       burst-quota
+Namespace:  tjcd-tarjetas-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         40m    8
+memory      256Mi  16Gi
+
+
+Name:       quota
+Namespace:  tjcd-tarjetas-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       40m    6
+memory    256Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  tomi-trackorimino-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  tomi-trackorimino-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  txrg-proyectoprueba-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  txrg-proyectoprueba-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  tytm-middleware-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         240m   8
+memory      384Mi  16Gi
+
+
+Name:       quota
+Namespace:  tytm-middleware-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       240m   6
+memory    384Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  vuse-vusecurity-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         2       8
+memory      1800Mi  16Gi
+
+
+Name:       quota
+Namespace:  vuse-vusecurity-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       2       6
+memory    1800Mi  12Gi
+
+
+Name:       burst-quota
+Namespace:  wpbk-whatsappbanking-prd
+Resource    Used  Hard
+--------    ----  ----
+cpu         0     8
+memory      0     16Gi
+
+
+Name:       quota
+Namespace:  wpbk-whatsappbanking-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used  Hard
+--------  ----  ----
+cpu       0     6
+memory    0     12Gi
+
+
+Name:       burst-quota
+Namespace:  ycer-merchants-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         860m    8
+memory      7936Mi  16Gi
+
+
+Name:       quota
+Namespace:  ycer-merchants-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       860m    6
+memory    7936Mi  14Gi
+
+
+Name:       burst-quota
+Namespace:  ycrm-cheques-prd
+Resource    Used    Hard
+--------    ----    ----
+cpu         4640m   11
+memory      9064Mi  16Gi
+
+
+Name:       quota
+Namespace:  ycrm-cheques-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used    Hard
+--------  ----    ----
+cpu       4640m   9
+memory    9064Mi  16Gi
+
+
+Name:       burst-quota
+Namespace:  yece-creditoempresas-prd
+Resource    Used   Hard
+--------    ----   ----
+cpu         2740m  8
+memory      7Gi    16Gi
+
+
+Name:       quota
+Namespace:  yece-creditoempresas-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used   Hard
+--------  ----   ----
+cpu       2740m  6
+memory    7Gi    12Gi
+
+
+Name:       burst-quota
+Namespace:  yerm-journeyvincuemp-prd
+Resource    Used         Hard
+--------    ----         ----
+cpu         4880m        13
+memory      16703474176  28Gi
+
+
+Name:       quota
+Namespace:  yerm-journeyvincuemp-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used         Hard
+--------  ----         ----
+cpu       4880m        12
+memory    16703474176  26Gi
+
+
+Name:       burst-quota
+Namespace:  yprm-paquetes-plt
+Resource    Used        Hard
+--------    ----        ----
+cpu         9           12
+memory      21874368Ki  25Gi
+
+
+Name:       quota
+Namespace:  yprm-paquetes-plt
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used        Hard
+--------  ----        ----
+cpu       9           10
+memory    21874368Ki  24Gi
+
+
+Name:       burst-quota
+Namespace:  yprm-paquetes-prd
+Resource    Used         Hard
+--------    ----         ----
+cpu         11677m       20
+memory      18836805504  32Gi
+
+
+Name:       quota
+Namespace:  yprm-paquetes-prd
+Scopes:     NotTerminating
+ * Matches all pods that do not have an active deadline. These pods usually include long running pods whose container command is not expected to terminate.
+Resource  Used         Hard
+--------  ----         ----
+cpu       11677m       18
+memory    18836805504  30Gi

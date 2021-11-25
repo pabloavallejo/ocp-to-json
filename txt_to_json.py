@@ -2,7 +2,7 @@ import json
 
 
 #archivo a convertir
-file = "namespaces_ocp_describe.txt"
+file = "project_ocp.txt"
 
 #diccionario donde guarda los datos
 dict = {}
@@ -15,6 +15,6 @@ with open(file) as fn:
         dict[key] = desc.strip()
 
 #creado el diccionario, se crea la salida json
-otfile = open("output1.json","w")
+otfile = open("output1.txt","w")
 json.dump(dict, otfile)
 otfile.close()

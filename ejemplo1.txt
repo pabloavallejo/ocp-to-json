@@ -1,4 +1,4 @@
-alex male
-tina female
-jakob male
-lee male
+alex male 34
+tina female 22
+jakob male 15
+lee male 14

@@ -1,18 +1,14 @@
 {
-    "alex": {
-        "name": "alex",
-        "gender": "male"
-    },
-    "tina": {
-        "name": "tina",
-        "gender": "female"
-    },
-    "jakob": {
-        "name": "jakob",
-        "gender": "male"
-    },
-    "lee": {
-        "name": "lee",
-        "gender": "male"
-    }
+   "Name:": "quota",
+   "Namespace:": "actm-autocontrolm-prd",
+   "Resource": {
+      "Used": {
+         "cpu": "20",
+         "memory": "128"
+      },
+      "Hard": {
+         "cpu": "6",
+         "memory": "12"
+      }
+   }
 }

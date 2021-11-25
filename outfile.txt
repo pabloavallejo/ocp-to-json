@@ -1,0 +1,20 @@
+Name:       burst-quota
+Namespace:  achc-apicheqcustodia-prd
+Resource    Used   Hard
+cpu         60m    8
+memory      384Mi  16Gi
+Name:       quota
+Namespace:  achc-apicheqcustodia-prd
+Resource  Used   Hard
+cpu       60m    6
+memory    384Mi  12Gi
+Name:       burst-quota
+Namespace:  actm-autocontrolm-prd
+Resource    Used   Hard
+cpu         20m    8
+memory      128Mi  16Gi
+Name:       quota
+Namespace:  actm-autocontrolm-prd
+Resource  Used   Hard
+cpu       20m    6
+memory    128Mi  12Gi
