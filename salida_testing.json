@@ -1,0 +1,14 @@
+{
+   "Name:": "quota",
+   "Namespace:": "yprm-paquetes-prd",
+   "Resource": {
+      "Used": {
+         "cpu": "11677",
+         "memory": "18836805504"
+      },
+      "Hard": {
+         "cpu": "18",
+         "memory": "30"
+      }
+   }
+}

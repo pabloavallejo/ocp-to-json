@@ -1,20 +1,45 @@
-import json
+import json, re
+#from typing import Mapping
 
+#definir el archivo a utilizar
+ruta_testing = "/home/appdynamics/ocp_get_pods/scripts/testing_ocp/"
 
-#archivo a convertir
-file = "project_ocp.txt"
+file = ruta_testing + "/etl_output_testing.txt"
 
-#diccionario donde guarda los datos
-dict = {}
+#crea diccionario
+dict={}
 
-#lee el archivo
+#create fieds to map with date in file
+mappings = [ 'Name2' ]
+
+#abrir archivo
 with open(file) as fn:
-    for d in fn: 
-        #Lee el archivo y recorta espacios para obtener palabras validas
-        key, desc = d.strip().split(None, 1)
-        dict[key] = desc.strip()
+    id = 1
+    for d in fn:
+        line = list(re.split("\s+", d.strip()))
+        if "Resource" in line[0]:
+            dict[line[0]] = {"Used": {}, "Hard": {}}
+        elif "cpu" in line[0]:
+            dict["Resource"]["Used"][line[0]] = re.findall("\d+",line[1])[0]
+            dict["Resource"]["Hard"][line[0]] = re.findall("\d+",line[-1])[0]
+        elif "memory" in line[0]:
+            dict["Resource"]["Used"][line[0]] = re.findall("\d+",line[1])[0]
+            dict["Resource"]["Hard"][line[0]] = re.findall("\d+",line[-1])[0]
+        else:
+            dict[line[0]] = line[-1]
 
-#creado el diccionario, se crea la salida json
-otfile = open("output1.txt","w")
-json.dump(dict, otfile)
+        
+        #intermediate dict to put fie data
+        #dict2 = {}
+       # while i < len(mappings):
+        #    dict2[mappings[i]] =desc[i]
+        #    i += 1
+        #append person data to idoutfile
+        #dict[person] = dict2
+        id +=  1
+
+#create output file
+otfile = open(ruta_testing + "salida_testing.json", "w")
+
+json.dump(dict, otfile,indent=3)
 otfile.close()
